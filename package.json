@@ -1,0 +1,10 @@
+{
+  "name": "proessional-profile-test",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "flexboxgrid": "^6.3.1"
+  }
+}

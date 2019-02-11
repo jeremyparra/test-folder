@@ -1,0 +1,119 @@
+
+
+
+/* #################  main elements ################################ */
+
+body{
+	background-color: black;
+	color: #efedef;
+	background-image: url("/img/code.jpg");
+	font-family: 'Titillium Web', sans-serif;
+	overflow: auto;
+}
+
+.container-fluid {
+	text-align: center;
+    margin: 0 auto;
+    min-width: 100vh;
+    min-height: 100vh;
+    top: 0px;
+    left: 0px;
+}
+
+#info-container{
+	width: 75%;
+	margin: 125px auto;
+	max-width: 700px; 
+
+	/* z-index: -1; */
+}
+
+/* ################################################################## */
+
+/* ##########################  nav  ################################# */
+
+#header{
+	margin-top: 30px;
+	float: left;
+	padding-left: 20px;
+}
+.dropdown-menu{
+	background-color: rgba(0, 0, 0, .9);
+	border: 1px solid #eafc40;
+	margin: 5px;
+}
+
+.dropdown-item {
+	color: #efedef;
+}
+
+.dropdown-item:hover {
+	background-color: #eafc40;
+}
+
+/* ################################################################## */
+
+/* ########################  buttons  ############################### */
+
+.my-btn{
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, .2);
+	color: #efedef;
+	border-radius: 5px;
+	border: 1px solid #eafc40;
+	font-size: 110%;
+	padding: 5px;
+	width: 200px;
+}
+
+.my-btn:hover {
+	filter: brightness(115%);
+}
+
+/* ################################################################## */
+
+/* ##########################  index  ################################# */
+
+#front-splash{
+	margin-top: 175px;
+}
+
+#name{
+	color: #eafc40;
+	font-weight: bold;
+	filter: contrast(115%);
+	filter: brightness(115%);
+}
+
+/* ################################################################## */
+
+/* ##########################  about  ################################# */
+
+#bio-pic{
+	border: 1px solid #efedef;
+	border-radius: 50%;
+	width: 225px;
+	height: 225px;
+	float: left;
+	position: relative;
+	bottom: 10px;
+	left: -20px;
+}
+
+ #bio {
+	 text-align: left;
+ }
+
+ /* ################################################################## */
+
+/* ##########################  work  ################################# */
+
+#work-item {
+	height: 250px;
+	border: 1px solid white;
+	margin: 5px;
+}
+
+/* .col-md {
+	flex-basis: 25%;
+} */
