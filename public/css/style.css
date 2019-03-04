@@ -22,10 +22,12 @@ body{
 
 #info-container{
 	width: 75%;
-	margin: 125px auto;
+	margin: 75px auto;
 	max-width: 700px; 
+}
 
-	/* z-index: -1; */
+.title{
+	margin-top: 30px;
 }
 
 /* ################################################################## */
@@ -56,14 +58,14 @@ body{
 /* ########################  buttons  ############################### */
 
 .my-btn{
-	margin-top: 20px;
+	margin: 20px;
 	background-color: rgba(0, 0, 0, .2);
 	color: #efedef;
 	border-radius: 5px;
 	border: 1px solid #eafc40;
 	font-size: 110%;
 	padding: 5px;
-	width: 200px;
+	width: 175px;
 }
 
 .my-btn:hover {
@@ -98,6 +100,7 @@ body{
 	position: relative;
 	bottom: 10px;
 	left: -20px;
+	background-color: silver;
 }
 
  #bio {
